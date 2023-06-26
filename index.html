@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job openings</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="open-position">
+        <div class="container">
+            <div class="row heading justify-content-center">
+                <div class="col-8 pt-5 pb-2 d-flex flex-column align-items-center">
+                    <h2>Open Positions</h2>
+                    <span></span>
+                </div>
+            </div>
+            <div class="row map">
+                <div class="col-12 d-flex justify-content-center">
+                    <div id="map" class="mt-3"></div>
+                </div>
+            </div>
+            <div class="row details" id="details">
+               
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBypC9oo-YL0QKld0HzGkxH14Ld28VbaS4&map_ids=b1e8fd84c87e62f3&callback=initMap"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
